@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8843C911E88B472003D5777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843C901E88B472003D5777 /* main.m */; };
+		B8843C941E88B472003D5777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843C931E88B472003D5777 /* AppDelegate.m */; };
+		B8843C9A1E88B472003D5777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8843C981E88B472003D5777 /* Main.storyboard */; };
+		B8843C9C1E88B472003D5777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8843C9B1E88B472003D5777 /* Assets.xcassets */; };
+		B8843C9F1E88B472003D5777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8843C9D1E88B472003D5777 /* LaunchScreen.storyboard */; };
+		B8843CAA1E88B472003D5777 /* JLRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CA91E88B472003D5777 /* JLRoutesTests.m */; };
+		B8843CB51E88B472003D5777 /* JLRoutesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CB41E88B472003D5777 /* JLRoutesUITests.m */; };
+		B8843CCD1E88B49E003D5777 /* JLROptionalRouteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CC41E88B49E003D5777 /* JLROptionalRouteParser.m */; };
+		B8843CCE1E88B49E003D5777 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CC61E88B49E003D5777 /* JLRoutes.m */; };
+		B8843CCF1E88B49E003D5777 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CC81E88B49E003D5777 /* JLRRouteDefinition.m */; };
+		B8843CD01E88B49E003D5777 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CCA1E88B49E003D5777 /* JLRRouteRequest.m */; };
+		B8843CD11E88B49E003D5777 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CCC1E88B49E003D5777 /* JLRRouteResponse.m */; };
+		B8843CD41E88B5AA003D5777 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CD31E88B5AA003D5777 /* OneViewController.m */; };
+		B8843CD71E88B5B4003D5777 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CD61E88B5B4003D5777 /* TwoViewController.m */; };
+		B8843CDA1E88B5BF003D5777 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CD91E88B5BF003D5777 /* ThreeViewController.m */; };
+		B8843CDD1E88B5D8003D5777 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CDC1E88B5D8003D5777 /* NavigationController.m */; };
+		B8843CE01E88B5F1003D5777 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CDF1E88B5F1003D5777 /* TabbarController.m */; };
+		B8843CE31E88B7F1003D5777 /* OnePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CE21E88B7F1003D5777 /* OnePushViewController.m */; };
+		B8843CE61E88B7FC003D5777 /* TwoPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CE51E88B7FC003D5777 /* TwoPushViewController.m */; };
+		B8843CE91E88B807003D5777 /* ThreePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8843CE81E88B807003D5777 /* ThreePushViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8843CA61E88B472003D5777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8843C841E88B472003D5777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8843C8B1E88B472003D5777;
+			remoteInfo = JLRoutes;
+		};
+		B8843CB11E88B472003D5777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8843C841E88B472003D5777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8843C8B1E88B472003D5777;
+			remoteInfo = JLRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8843C8C1E88B472003D5777 /* JLRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8843C901E88B472003D5777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8843C921E88B472003D5777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8843C931E88B472003D5777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8843C991E88B472003D5777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8843C9B1E88B472003D5777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8843C9E1E88B472003D5777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8843CA01E88B472003D5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8843CA51E88B472003D5777 /* JLRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8843CA91E88B472003D5777 /* JLRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRoutesTests.m; sourceTree = "<group>"; };
+		B8843CAB1E88B472003D5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8843CB01E88B472003D5777 /* JLRoutesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRoutesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8843CB41E88B472003D5777 /* JLRoutesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRoutesUITests.m; sourceTree = "<group>"; };
+		B8843CB61E88B472003D5777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8843CC31E88B49E003D5777 /* JLROptionalRouteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLROptionalRouteParser.h; sourceTree = "<group>"; };
+		B8843CC41E88B49E003D5777 /* JLROptionalRouteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLROptionalRouteParser.m; sourceTree = "<group>"; };
+		B8843CC51E88B49E003D5777 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
+		B8843CC61E88B49E003D5777 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		B8843CC71E88B49E003D5777 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteDefinition.h; sourceTree = "<group>"; };
+		B8843CC81E88B49E003D5777 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteDefinition.m; sourceTree = "<group>"; };
+		B8843CC91E88B49E003D5777 /* JLRRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteRequest.h; sourceTree = "<group>"; };
+		B8843CCA1E88B49E003D5777 /* JLRRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteRequest.m; sourceTree = "<group>"; };
+		B8843CCB1E88B49E003D5777 /* JLRRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteResponse.h; sourceTree = "<group>"; };
+		B8843CCC1E88B49E003D5777 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
+		B8843CD21E88B5AA003D5777 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		B8843CD31E88B5AA003D5777 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		B8843CD51E88B5B4003D5777 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		B8843CD61E88B5B4003D5777 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		B8843CD81E88B5BF003D5777 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		B8843CD91E88B5BF003D5777 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		B8843CDB1E88B5D8003D5777 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		B8843CDC1E88B5D8003D5777 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		B8843CDE1E88B5F1003D5777 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		B8843CDF1E88B5F1003D5777 /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
+		B8843CE11E88B7F1003D5777 /* OnePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePushViewController.h; sourceTree = "<group>"; };
+		B8843CE21E88B7F1003D5777 /* OnePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePushViewController.m; sourceTree = "<group>"; };
+		B8843CE41E88B7FC003D5777 /* TwoPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoPushViewController.h; sourceTree = "<group>"; };
+		B8843CE51E88B7FC003D5777 /* TwoPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoPushViewController.m; sourceTree = "<group>"; };
+		B8843CE71E88B807003D5777 /* ThreePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreePushViewController.h; sourceTree = "<group>"; };
+		B8843CE81E88B807003D5777 /* ThreePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreePushViewController.m; sourceTree = "<group>"; };
+		B8843CEA1E88DE46003D5777 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8843C891E88B472003D5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CA21E88B472003D5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CAD1E88B472003D5777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8843C831E88B472003D5777 = {
+			isa = PBXGroup;
+			children = (
+				B8843C8E1E88B472003D5777 /* JLRoutes */,
+				B8843CA81E88B472003D5777 /* JLRoutesTests */,
+				B8843CB31E88B472003D5777 /* JLRoutesUITests */,
+				B8843C8D1E88B472003D5777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8843C8D1E88B472003D5777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8843C8C1E88B472003D5777 /* JLRoutes.app */,
+				B8843CA51E88B472003D5777 /* JLRoutesTests.xctest */,
+				B8843CB01E88B472003D5777 /* JLRoutesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8843C8E1E88B472003D5777 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				B8843CC21E88B49E003D5777 /* Classes */,
+				B8843C921E88B472003D5777 /* AppDelegate.h */,
+				B8843C931E88B472003D5777 /* AppDelegate.m */,
+				B8843CD21E88B5AA003D5777 /* OneViewController.h */,
+				B8843CD31E88B5AA003D5777 /* OneViewController.m */,
+				B8843CD51E88B5B4003D5777 /* TwoViewController.h */,
+				B8843CD61E88B5B4003D5777 /* TwoViewController.m */,
+				B8843CD81E88B5BF003D5777 /* ThreeViewController.h */,
+				B8843CD91E88B5BF003D5777 /* ThreeViewController.m */,
+				B8843CDB1E88B5D8003D5777 /* NavigationController.h */,
+				B8843CDC1E88B5D8003D5777 /* NavigationController.m */,
+				B8843CDE1E88B5F1003D5777 /* TabbarController.h */,
+				B8843CDF1E88B5F1003D5777 /* TabbarController.m */,
+				B8843CE11E88B7F1003D5777 /* OnePushViewController.h */,
+				B8843CE21E88B7F1003D5777 /* OnePushViewController.m */,
+				B8843CE41E88B7FC003D5777 /* TwoPushViewController.h */,
+				B8843CE51E88B7FC003D5777 /* TwoPushViewController.m */,
+				B8843CE71E88B807003D5777 /* ThreePushViewController.h */,
+				B8843CE81E88B807003D5777 /* ThreePushViewController.m */,
+				B8843C981E88B472003D5777 /* Main.storyboard */,
+				B8843C9B1E88B472003D5777 /* Assets.xcassets */,
+				B8843C9D1E88B472003D5777 /* LaunchScreen.storyboard */,
+				B8843CA01E88B472003D5777 /* Info.plist */,
+				B8843C8F1E88B472003D5777 /* Supporting Files */,
+			);
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		B8843C8F1E88B472003D5777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8843C901E88B472003D5777 /* main.m */,
+				B8843CEA1E88DE46003D5777 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8843CA81E88B472003D5777 /* JLRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8843CA91E88B472003D5777 /* JLRoutesTests.m */,
+				B8843CAB1E88B472003D5777 /* Info.plist */,
+			);
+			path = JLRoutesTests;
+			sourceTree = "<group>";
+		};
+		B8843CB31E88B472003D5777 /* JLRoutesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8843CB41E88B472003D5777 /* JLRoutesUITests.m */,
+				B8843CB61E88B472003D5777 /* Info.plist */,
+			);
+			path = JLRoutesUITests;
+			sourceTree = "<group>";
+		};
+		B8843CC21E88B49E003D5777 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8843CC31E88B49E003D5777 /* JLROptionalRouteParser.h */,
+				B8843CC41E88B49E003D5777 /* JLROptionalRouteParser.m */,
+				B8843CC51E88B49E003D5777 /* JLRoutes.h */,
+				B8843CC61E88B49E003D5777 /* JLRoutes.m */,
+				B8843CC71E88B49E003D5777 /* JLRRouteDefinition.h */,
+				B8843CC81E88B49E003D5777 /* JLRRouteDefinition.m */,
+				B8843CC91E88B49E003D5777 /* JLRRouteRequest.h */,
+				B8843CCA1E88B49E003D5777 /* JLRRouteRequest.m */,
+				B8843CCB1E88B49E003D5777 /* JLRRouteResponse.h */,
+				B8843CCC1E88B49E003D5777 /* JLRRouteResponse.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8843C8B1E88B472003D5777 /* JLRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8843CB91E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutes" */;
+			buildPhases = (
+				B8843C881E88B472003D5777 /* Sources */,
+				B8843C891E88B472003D5777 /* Frameworks */,
+				B8843C8A1E88B472003D5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRoutes;
+			productName = JLRoutes;
+			productReference = B8843C8C1E88B472003D5777 /* JLRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8843CA41E88B472003D5777 /* JLRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8843CBC1E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutesTests" */;
+			buildPhases = (
+				B8843CA11E88B472003D5777 /* Sources */,
+				B8843CA21E88B472003D5777 /* Frameworks */,
+				B8843CA31E88B472003D5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8843CA71E88B472003D5777 /* PBXTargetDependency */,
+			);
+			name = JLRoutesTests;
+			productName = JLRoutesTests;
+			productReference = B8843CA51E88B472003D5777 /* JLRoutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8843CAF1E88B472003D5777 /* JLRoutesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8843CBF1E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutesUITests" */;
+			buildPhases = (
+				B8843CAC1E88B472003D5777 /* Sources */,
+				B8843CAD1E88B472003D5777 /* Frameworks */,
+				B8843CAE1E88B472003D5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8843CB21E88B472003D5777 /* PBXTargetDependency */,
+			);
+			name = JLRoutesUITests;
+			productName = JLRoutesUITests;
+			productReference = B8843CB01E88B472003D5777 /* JLRoutesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8843C841E88B472003D5777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mengyao;
+				TargetAttributes = {
+					B8843C8B1E88B472003D5777 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B8843CA41E88B472003D5777 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8843C8B1E88B472003D5777;
+					};
+					B8843CAF1E88B472003D5777 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8843C8B1E88B472003D5777;
+					};
+				};
+			};
+			buildConfigurationList = B8843C871E88B472003D5777 /* Build configuration list for PBXProject "JLRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8843C831E88B472003D5777;
+			productRefGroup = B8843C8D1E88B472003D5777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8843C8B1E88B472003D5777 /* JLRoutes */,
+				B8843CA41E88B472003D5777 /* JLRoutesTests */,
+				B8843CAF1E88B472003D5777 /* JLRoutesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8843C8A1E88B472003D5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8843C9F1E88B472003D5777 /* LaunchScreen.storyboard in Resources */,
+				B8843C9C1E88B472003D5777 /* Assets.xcassets in Resources */,
+				B8843C9A1E88B472003D5777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CA31E88B472003D5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CAE1E88B472003D5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8843C881E88B472003D5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8843CCE1E88B49E003D5777 /* JLRoutes.m in Sources */,
+				B8843CCD1E88B49E003D5777 /* JLROptionalRouteParser.m in Sources */,
+				B8843CD11E88B49E003D5777 /* JLRRouteResponse.m in Sources */,
+				B8843CD01E88B49E003D5777 /* JLRRouteRequest.m in Sources */,
+				B8843CE91E88B807003D5777 /* ThreePushViewController.m in Sources */,
+				B8843C941E88B472003D5777 /* AppDelegate.m in Sources */,
+				B8843CE01E88B5F1003D5777 /* TabbarController.m in Sources */,
+				B8843C911E88B472003D5777 /* main.m in Sources */,
+				B8843CD71E88B5B4003D5777 /* TwoViewController.m in Sources */,
+				B8843CCF1E88B49E003D5777 /* JLRRouteDefinition.m in Sources */,
+				B8843CE61E88B7FC003D5777 /* TwoPushViewController.m in Sources */,
+				B8843CDD1E88B5D8003D5777 /* NavigationController.m in Sources */,
+				B8843CD41E88B5AA003D5777 /* OneViewController.m in Sources */,
+				B8843CDA1E88B5BF003D5777 /* ThreeViewController.m in Sources */,
+				B8843CE31E88B7F1003D5777 /* OnePushViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CA11E88B472003D5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8843CAA1E88B472003D5777 /* JLRoutesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8843CAC1E88B472003D5777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8843CB51E88B472003D5777 /* JLRoutesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8843CA71E88B472003D5777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8843C8B1E88B472003D5777 /* JLRoutes */;
+			targetProxy = B8843CA61E88B472003D5777 /* PBXContainerItemProxy */;
+		};
+		B8843CB21E88B472003D5777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8843C8B1E88B472003D5777 /* JLRoutes */;
+			targetProxy = B8843CB11E88B472003D5777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8843C981E88B472003D5777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8843C991E88B472003D5777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8843C9D1E88B472003D5777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8843C9E1E88B472003D5777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8843CB71E88B472003D5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8843CB81E88B472003D5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8843CBA1E88B472003D5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = JLRoutes/PrefixHeader.pch;
+				INFOPLIST_FILE = JLRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8843CBB1E88B472003D5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = JLRoutes/PrefixHeader.pch;
+				INFOPLIST_FILE = JLRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8843CBD1E88B472003D5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRoutes.app/JLRoutes";
+			};
+			name = Debug;
+		};
+		B8843CBE1E88B472003D5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRoutes.app/JLRoutes";
+			};
+			name = Release;
+		};
+		B8843CC01E88B472003D5777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLRoutesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLRoutes;
+			};
+			name = Debug;
+		};
+		B8843CC11E88B472003D5777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLRoutesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengyao.JLRoutesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLRoutes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8843C871E88B472003D5777 /* Build configuration list for PBXProject "JLRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8843CB71E88B472003D5777 /* Debug */,
+				B8843CB81E88B472003D5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8843CB91E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8843CBA1E88B472003D5777 /* Debug */,
+				B8843CBB1E88B472003D5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8843CBC1E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8843CBD1E88B472003D5777 /* Debug */,
+				B8843CBE1E88B472003D5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8843CBF1E88B472003D5777 /* Build configuration list for PBXNativeTarget "JLRoutesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8843CC01E88B472003D5777 /* Debug */,
+				B8843CC11E88B472003D5777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8843C841E88B472003D5777 /* Project object */;
+}
